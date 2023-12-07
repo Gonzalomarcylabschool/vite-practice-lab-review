@@ -9,9 +9,9 @@ export const removeNamefromDOM = (name, dontRemoveAll = false) => {
   }
 }
 
-export const addNewP = (text, where) => {
-  let p = document.createElement('p');
-  p.textContent = text;
+export const addNewP = (text, where, el) => {
+  let newEl = document.createElement(el);
+  newEl.textContent = text;
   where.append(p);
 }
 

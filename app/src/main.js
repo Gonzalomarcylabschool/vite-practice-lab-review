@@ -16,7 +16,7 @@ const handleAddSubmit = (e) => {
 
   const formObj = Object.fromEntries(new FormData(e.target));
 
-  addNewP(formObj.name, mainPage);
+  addNewP(formObj.name, mainPage, 'p');
   if(!getNames()){
     setNames( [formObj.name] );
     console.log(localStorage);
