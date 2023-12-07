@@ -57,10 +57,10 @@ const main = () => {
   restoreFromLocal();
 
   document.querySelector('#name').addEventListener('submit', handleAddSubmit);
-  document.querySelector('#removeName').addEventListener('submit', handleRemoveSubmit)
-  document.querySelector('#removeAll').addEventListener('click', handleRemoveAll)
+  document.querySelector('#removeName').addEventListener('submit', handleRemoveSubmit);
+  document.querySelector('#removeAll').addEventListener('click', handleRemoveAll);
   document.querySelector('#reset').addEventListener('click', handleReset);
-
+  console.log('you got this - Itzel');
 }
 
 main();
